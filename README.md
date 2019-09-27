@@ -1,6 +1,6 @@
 # Nicola O'Brien Introduction
 
-Here is my Gitbuh page.
+Here is my Github page.
 
 There is a full introduction on my backround.
 
