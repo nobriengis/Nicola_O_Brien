@@ -3,8 +3,8 @@ We work mainly on the INFOMAR programme www.infomar.ie (The INtegrated Mapping F
 Ireland's MArine Resource) which is a joint mapping venture between the Geological Survey of Ireland and the Marine Institute. 
 
 KEY COMPETENCIES
--Enthusiastic geoscientist proficient in the use of various GIS, data visualisation, processing, 
-design, media editing and office software packages.
+-Enthusiastic scientist proficient in the use of various GIS, data visualisation, processing, 
+design and office software packages.
 -Strong communication skills with experience in engaging with landowners and local authorities.
 -Experience of best practice approaches, methodologies and standards involved in survey planning, 
 collecting multibeam and seabed data, collating data, data integration, data management and GIS mapping.
