@@ -1,0 +1,2 @@
+
+This is an agent based model developed during the Leeds course on Introduction to Programming.   Most of the work was done in Spyder.  I made python .py files for the practicals which are saved ehre  
