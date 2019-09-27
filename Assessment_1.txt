@@ -1,4 +1,5 @@
 
-This is an agent based model developed during the Leeds course on Introduction to Programming.   
+This is an agent based model developed during the University of Leeds course 
+Programming for Geographical Information Analysts: Core Skills (WUN).   
 Most of the work was done in Spyder.  
 I have made python .py files for the practicals which are saved here  
