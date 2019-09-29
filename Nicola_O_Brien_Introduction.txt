@@ -9,7 +9,7 @@ Key Responsibilities and Achievements
 -Created new maps and posters to present data in useful and interesting ways.
 -Lead a project team to drive improvements to legend templates of charts. 
 -Integration of data for the production of seamless standardised charts of priority bays and areas around Ireland.  
-This includes habitat charts, contour charts and shaded relief charts. 
+This includes bathymetric charts, backscatter charts and shaded relief charts. 
 -Standardising, improving and streamlining GIS workflows for charting and onshore office procedures.
 -Reporting and analysis of data gaps in marine areas for survey planning.
 -Working as Chief Scientist and Hydrographic Surveyor on various Marine Institute and Geological Survey of Ireland Research Vessels, 
