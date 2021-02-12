@@ -1,92 +1,52 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep 12 09:40:20 2019
+Created on Tue Jan 12 12:40:20 2021
 
 @author: nobrien
 """
-import random
 
-'''agents = [] 
+import random #import random module
+import operator #import operator module
+import matplotlib.pyplot #import module to plot graphs
 
-#random y0, x0 between 0 and 99, and append to end of the list agents
+num_of_agents=10 #number of agents 
+num_of_iterations=100 #number of iterations for age
 
-y0 = random.randint (0,99)
-x0 = random.randint (0,99)
+#create an empty list for the agents
+agents=[]
 
-agents.append ([y0, x0])
-
-#random y1, x1 between 0 and 99, and append to end of the list agents
-
-y1 = random.randint (0,99)
-x1 = random.randint (0,99)
-
-agents.append ([y1, x1])
-
-# print (agents)'''
-
-import operator 
-
-import matplotlib.pyplot
-
-num_of_agents = 10
-
-agents = []  #make new empty list 
-
-#creates 10 sets of co-ordinates
-
-'''for i in range(num_of_agents):
+#create number of agents, all appended to list agents
+for i in range(num_of_agents):
     agents.append([random.randint(0,99),random.randint(0,99)])
 
- 
-#random y0, x0 between 0 and 99, and append to end of the list agents and 
-#random y1, x1 between 0 and 99, and append to end of the list agents   
-#agents.append([random.randint(0,99),random.randint(0,99)])
-#agents.append([random.randint(0,99),random.randint(0,99)])
+#print(agents)  
 
-print (agents)
-
-#print(max(agents))
-
-#print(max(agents, key=operator.itemgetter(1)))
-
-matplotlib.pyplot.ylim(0, 100)
-matplotlib.pyplot.xlim(0, 100)
-matplotlib.pyplot.scatter(agents[0][1],agents[0][0])
-matplotlib.pyplot.scatter(agents[1][1],agents[1][0])
-matplotlib.pyplot.show()'''
-
-'''if random.random() < 0.5:
-    agents[0][0] += 1
-else:
-    agents[0][0] -= 1
-
-if random.random() < 0.5:
-    agents[0][1] += 1
-else:
-    agents[0][1] -= 1
-
-if random.random() < 0.5:
-    agents[0][0] += 1
-else:
-    agents[0][0] -= 1
-
-if random.random() < 0.5:
-    agents[0][1] += 1
-else:
-    agents[0][1] -= 1'''
-
-#for i in range (num_of_agents):
-
-'''if random.random() < 0.5:
-    agents[i][0] += 1
-else:
-    agents[i][0] -= 1
+#move each agent in the agents list 100 times
+for j in range(num_of_iterations):#repeat inner loop 100 times
+    #move each agent once using agents[i]
+    for i in range(num_of_agents):
+        #move y one step, for each y, taking the boundaray effect into account
+        if random.random() < 0.5:
+            agents[i][0]=(agents[i][0]+1)%100 #takes boundary into account
+        else:
+            agents[i][0]=(agents[i][0]-1)%100
+        
+        #move x one step, for each x, taking the boundaray effect into account
+        if random.random() < 0.5:
+            agents[i][1]=(agents[i][1]+1)%100
+        else:
+            agents[i][1]=(agents[i][1]-1)%100
     
-agents.append ([y1, x1])
-    
-print(agents)  '''  
-    
-for i in range(num_of_agents):
-    agents([random.randint(0,99),random.randint(0,99)])
 
 print(agents)
+
+
+#create a graph plot of the points using matplotlib
+matplotlib.pyplot.ylim(0, 99) #y-axis limits
+matplotlib.pyplot.xlim(0, 99) #x-axis limits
+for i in range(num_of_agents):
+    #scatter plot all co-ordaintes x,y, for all agents
+    matplotlib.pyplot.scatter(agents[i][1],agents[i][0])
+#plot most easterly point in red
+#matplotlib.pyplot.scatter(max(agents, key=operator.itemgetter(1))[1],max(agents, key=operator.itemgetter(1))[0], color='red') 
+matplotlib.pyplot.show()
