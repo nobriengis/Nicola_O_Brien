@@ -3,7 +3,7 @@ This is my github page for Assessment 1
 https://github.com/nobriengis/Nicola_O_Brien
 
 It contains a brief introduction on myself.
-It aslso has the python files made in Spyder for the Practicals. 
+It also has the python files made in Spyder or Sublime Text for the Practicals. 
 
 This is an agent based model developed during the University of Leeds course 
 Programming for Geographical Information Analysts: Core Skills (WUN).   
