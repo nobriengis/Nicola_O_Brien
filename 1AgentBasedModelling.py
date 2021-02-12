@@ -8,6 +8,9 @@ Created on Tue Jan 12 12:40:20 2021
 
 import random
 
+#set up variables y0 and x0
+#y0=50
+#x0=50
 
 #set up variables y0 and x0 to be random integers between 0 and 99
 y0=random.randint(0,99)
